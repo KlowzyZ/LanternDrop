@@ -8,17 +8,17 @@
 
 LanternDrop is a Windows 11 application for exchanging files and plain text with a phone on the same private local network. Scan one temporary QR code and transfer directly between the two devices—no phone application, browser extension, account, cloud storage, or telemetry required.
 
-> **Preview release:** LanternDrop 0.1.0-preview is ready for personal evaluation. It is pre-release software and may change in later updates.
+> **Stable release:** LanternDrop 1.0.0 is the first general release of LanternDrop.
 
 ## Download
 
-[**Download LanternDrop 0.1.0 Preview**](https://github.com/KlowzyZ/LanternDrop/releases/tag/v0.1.0-preview)
+[**Download LanternDrop 1.0.0**](https://github.com/KlowzyZ/LanternDrop/releases/latest)
 
 | Asset | Use |
 |---|---|
-| [LanternDrop.exe](https://github.com/KlowzyZ/LanternDrop/releases/download/v0.1.0-preview/LanternDrop.exe) | Standalone Windows x64 application |
-| [LanternDrop-0.1.0-preview-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/download/v0.1.0-preview/LanternDrop-0.1.0-preview-win-x64.zip) | ZIP containing the standalone application |
-| [SHA256SUMS.txt](https://github.com/KlowzyZ/LanternDrop/releases/download/v0.1.0-preview/SHA256SUMS.txt) | Published SHA-256 checksums |
+| [LanternDrop.exe](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop.exe) | Standalone Windows x64 application |
+| [LanternDrop-1.0.0-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop-1.0.0-win-x64.zip) | ZIP containing the standalone application |
+| [SHA256SUMS.txt](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/SHA256SUMS.txt) | Published SHA-256 checksums |
 
 The executable is not currently code-signed, so Windows may display a Microsoft Defender SmartScreen warning. Windows Firewall may also ask whether LanternDrop can communicate on **Private networks** when a local session starts.
 
@@ -50,7 +50,7 @@ The primary target is **Windows 11 x64**. The phone needs a modern browser and m
 
 ![LanternDrop Settings](screenshots/settings-dark.png)
 
-![LanternDrop About showing the current preview is up to date](screenshots/about-up-to-date.png)
+![LanternDrop About showing the current stable release is up to date](screenshots/about-up-to-date.png)
 
 <details>
 <summary>Light theme</summary>
@@ -75,9 +75,9 @@ Update checks contact GitHub only when manually requested or when **Automaticall
 
 LanternDrop transfer traffic uses local HTTP and is **not encrypted or end-to-end encrypted**. The temporary random token reduces casual unauthorized access, but it cannot protect traffic from a capable local-network interceptor. Use LanternDrop only on a trusted private network or personal hotspot. Public or shared Wi-Fi is not recommended.
 
-This preview has not received an external security audit. See [SECURITY.md](SECURITY.md) for responsible reporting guidance.
+LanternDrop has not received an external security audit. See [SECURITY.md](SECURITY.md) for responsible reporting guidance.
 
-## Preview limitations
+## Known limitations
 
 - Windows 11 x64 is the primary target.
 - A trusted private LAN is required; IPv4 is used for sessions.
@@ -85,7 +85,7 @@ This preview has not received an external security audit. See [SECURITY.md](SECU
 - The unsigned executable may trigger SmartScreen.
 - Windows Firewall policy can require a user decision for Private-network access.
 - Automatic download or installation of updates is not included.
-- The preview has not received an external security audit.
+- LanternDrop has not received an external security audit.
 - Formal licensing terms are not finalized.
 
 ## Developer and copyright
@@ -94,4 +94,4 @@ Developed by [**KLOWZY**](https://github.com/KlowzyZ).
 
 Copyright © 2026 KLOWZY. All rights reserved.
 
-LanternDrop 0.1.0-preview is provided as a free preview for personal evaluation and use. Formal licensing terms may be introduced in a future release.
+LanternDrop 1.0.0 is provided free for personal use and evaluation. Formal licensing terms for redistribution or commercial use may be introduced in a future release.
