@@ -8,16 +8,16 @@
 
 LanternDrop is a Windows 11 application for exchanging files and plain text with a phone on the same private local network. Scan one temporary QR code and transfer directly between the two devices—no phone application, browser extension, account, cloud storage, or telemetry required.
 
-> **Stable release:** LanternDrop 1.0.0 is the first general release of LanternDrop.
+> **Latest release:** LanternDrop 1.1.0
 
 ## Download
 
-[**Download LanternDrop 1.0.0**](https://github.com/KlowzyZ/LanternDrop/releases/latest)
+[**Download LanternDrop 1.1.0**](https://github.com/KlowzyZ/LanternDrop/releases/latest)
 
 | Asset | Use |
 |---|---|
 | [LanternDrop.exe](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop.exe) | Standalone Windows x64 application |
-| [LanternDrop-1.0.0-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop-1.0.0-win-x64.zip) | ZIP containing the standalone application |
+| [LanternDrop-1.1.0-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop-1.1.0-win-x64.zip) | ZIP containing the standalone application |
 | [SHA256SUMS.txt](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/SHA256SUMS.txt) | Published SHA-256 checksums |
 
 The executable is not currently code-signed, so Windows may display a Microsoft Defender SmartScreen warning. Windows Firewall may also ask whether LanternDrop can communicate on **Private networks** when a local session starts.
@@ -31,7 +31,7 @@ The executable is not currently code-signed, so Windows may display a Microsoft 
 - Collision-safe receives, upload cancellation, and partial-file cleanup.
 - Per-transfer progress, bytes, speed, and activity history.
 - Dark and Light themes plus Reduce Motion.
-- Manual update checks and optional once-per-launch checks through GitHub Releases.
+- Manual update checks and optional once-per-launch checks.
 - No cloud relay, account, phone installation, analytics, or telemetry.
 
 ## Three steps
@@ -67,9 +67,9 @@ The primary target is **Windows 11 x64**. The phone needs a modern browser and m
 
 ## Privacy and update checks
 
-File and text transfers remain on the selected LAN. They are not uploaded to GitHub or another cloud service. LanternDrop collects no analytics or telemetry.
+File and text transfers remain on the selected LAN. They are not uploaded to any cloud service. LanternDrop collects no analytics or telemetry.
 
-Update checks contact GitHub only when manually requested or when **Automatically check for updates** is enabled. They send ordinary network metadata, but no transfer content, filenames, local paths, clipboard text, session tokens, telemetry, or analytics. Local transfers continue to work without internet access. See [PRIVACY.md](PRIVACY.md).
+Update checks contact the public release service only when manually requested or when **Automatically check for updates** is enabled. They send ordinary network metadata, but no transfer content, filenames, local paths, clipboard text, session tokens, telemetry, or analytics. Local transfers continue to work without internet access. See [PRIVACY.md](PRIVACY.md).
 
 ## Trusted-network warning
 
@@ -94,4 +94,4 @@ Developed by [**KLOWZY**](https://github.com/KlowzyZ).
 
 Copyright © 2026 KLOWZY. All rights reserved.
 
-LanternDrop 1.0.0 is provided free for personal use and evaluation. Formal licensing terms for redistribution or commercial use may be introduced in a future release.
+LanternDrop is provided free for personal use and evaluation. Formal licensing terms for redistribution or commercial use may be introduced in a future release.
