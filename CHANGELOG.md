@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.1.0 — UI & Messaging Polish
+
+### Changed
+
+- Removed visible GitHub references from the About page and update status messages for a cleaner product experience.
+- Refined Dark and Light themes for deeper contrast and a more modern appearance.
+- Softened control radii, improved button and card padding, and polished navigation spacing.
+- Tightened sidebar logo treatment and overall window spacing.
+- Improved Home page visual hierarchy and action-card balance.
+
+### Notes
+
+- Transfer engine, session security, and privacy guarantees are unchanged from 1.0.0.
+- Update checks still work the same way; only user-visible wording was cleaned.
+
 ## 1.0.0 — First Stable Release
 
 ### Included
@@ -31,7 +46,7 @@
 - Dark and Light themes.
 - Reduce Motion.
 - Per-transfer progress, bytes, speed, and activity.
-- Optional GitHub update checks.
+- Optional update checks.
 - No cloud relay, account, telemetry, analytics, or phone installation.
 
 ### Known limitations
