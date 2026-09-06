@@ -8,16 +8,16 @@
 
 LanternDrop is a Windows 11 application for exchanging files and plain text with a phone on the same private local network. Scan one temporary QR code and transfer directly between the two devices—no phone application, browser extension, account, cloud storage, or telemetry required.
 
-> **Latest release:** LanternDrop 1.1.0
+> **Latest published release:** LanternDrop 1.0.0
 
 ## Download
 
-[**Download LanternDrop 1.1.0**](https://github.com/KlowzyZ/LanternDrop/releases/latest)
+[**Download the latest published LanternDrop release**](https://github.com/KlowzyZ/LanternDrop/releases/latest)
 
 | Asset | Use |
 |---|---|
 | [LanternDrop.exe](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop.exe) | Standalone Windows x64 application |
-| [LanternDrop-1.1.0-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop-1.1.0-win-x64.zip) | ZIP containing the standalone application |
+| [LanternDrop-1.0.0-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/download/v1.0.0/LanternDrop-1.0.0-win-x64.zip) | ZIP containing the current published standalone application |
 | [SHA256SUMS.txt](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/SHA256SUMS.txt) | Published SHA-256 checksums |
 
 The executable is not currently code-signed, so Windows may display a Microsoft Defender SmartScreen warning. Windows Firewall may also ask whether LanternDrop can communicate on **Private networks** when a local session starts.
