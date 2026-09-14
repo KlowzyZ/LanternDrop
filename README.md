@@ -10,15 +10,15 @@ LanternDrop is a Windows 11 application for exchanging files and plain text with
 
 > **Latest published release:** LanternDrop 1.0.0
 
-## Download
+## Published releases
 
-[**Download the latest published LanternDrop release**](https://github.com/KlowzyZ/LanternDrop/releases/latest)
+Published Windows builds and their SHA-256 checksums are stored as GitHub Release assets in this repository. Open the repository’s **Releases** section to view the available version.
 
-| Asset | Use |
+| Release asset | Use |
 |---|---|
-| [LanternDrop.exe](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/LanternDrop.exe) | Standalone Windows x64 application |
-| [LanternDrop-1.0.0-win-x64.zip](https://github.com/KlowzyZ/LanternDrop/releases/download/v1.0.0/LanternDrop-1.0.0-win-x64.zip) | ZIP containing the current published standalone application |
-| [SHA256SUMS.txt](https://github.com/KlowzyZ/LanternDrop/releases/latest/download/SHA256SUMS.txt) | Published SHA-256 checksums |
+| `LanternDrop.exe` | Standalone Windows x64 application |
+| `LanternDrop-1.0.0-win-x64.zip` | ZIP containing the current published standalone application |
+| `SHA256SUMS.txt` | Published SHA-256 checksums |
 
 The executable is not currently code-signed, so Windows may display a Microsoft Defender SmartScreen warning. Windows Firewall may also ask whether LanternDrop can communicate on **Private networks** when a local session starts.
 
