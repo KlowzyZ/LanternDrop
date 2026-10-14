@@ -9,6 +9,8 @@
 LanternDrop is a Windows 11 application for exchanging files and plain text with a phone on the same private local network. Scan one temporary QR code and transfer directly between the two devices—no phone application, browser extension, account, cloud storage, or telemetry required.
 
 > **Latest published release:** LanternDrop 1.0.0
+>
+> **Preview for testing:** LanternDrop 2.0.0-preview.1 adds an Android app and encrypted app-to-app transfers. It is a pre-release that has not yet been tested on physical phones; see its release notes before installing.
 
 ## Published releases
 

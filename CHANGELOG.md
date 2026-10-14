@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.0.0-preview.1 — Preview (pre-release)
+
+### Added
+
+- Android app (preview APK): send and receive files, photos, videos and text with a Windows PC or another phone, by QR code or typed code.
+- Encrypted app-to-app transfers: TLS with a fresh key per session, verified by the fingerprint in the QR code; every file checked with SHA-256 before it is saved.
+- Windows sessions serve the app over that encrypted connection; phones without the app keep using the browser page as before.
+
+### Notes
+
+- Pre-release for testing. Not yet tested on physical phones.
+- Browser transfers (phone without the app) remain plain local HTTP — trusted networks only.
+- The iPhone app is not yet distributable.
+
 ## 1.1.0 — UI & Messaging Polish
 
 ### Changed
