@@ -46,6 +46,8 @@ The primary target is **Windows 11 x64**. The phone needs a modern browser and m
 
 ## Screenshots
 
+Desktop images below are source-based reconstructions of the stable interface; phone images render the real browser client with sample session data. See [image provenance](screenshots/README.md).
+
 ### Windows
 
 ![LanternDrop Home in Dark theme](screenshots/home-dark.png)
